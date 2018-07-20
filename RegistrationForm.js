@@ -15,15 +15,11 @@ class RegistrationForm extends Component {
 
   handleChange(e) {
     this.setState({
-      //firstName: e.target.value
       [e.target.name]: e.target.value
     });
   }
 
   handleSubmit(e) {
-    //e.preventDefault();
-    //console.log("firstName " + this.state.firstName);
-    //console.log("lastName " + this.state.lastName);
     console.log(this.state);
   }
 
