@@ -36,7 +36,6 @@ class RegistrationForm extends Component {
   render() {
     return (
       <div>
-        Hi registration form
         <input
           type="text"
           placeholder="Enter first name"
